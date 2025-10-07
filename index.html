@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhorias no Município</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="ok.html">
+        <img src="img/4.png" alt="">
+        
+        
+        <h1>Melhorias no Município</h1>
+
+        <!-- Nome -->
+        <div class="input-item">
+            <label for="input-nome">Nome Completo</label>
+            <input type="text" id="input-nome" name="nome" required>
+        </div>
+
+        <!-- Data de nascimento -->
+        <div class="input-item">
+            <label for="input-data">Data de Nascimento</label>
+            <input type="date" id="input-data" name="data_nascimento" required>
+        </div>
+
+        <!-- Pergunta 1 -->
+        <fieldset class="input-radio">
+            <legend>1 - Qual área você considera que mais precisa de melhorias em seu município?</legend>
+
+            <input type="radio" name="melhoria" id="input-saude" value="saude">
+            <label for="input-saude">Saúde</label><br>
+
+            <input type="radio" name="melhoria" id="input-educacao" value="educacao">
+            <label for="input-educacao">Educação</label><br>
+
+            <input type="radio" name="melhoria" id="input-seguranca" value="seguranca">
+            <label for="input-seguranca">Segurança</label><br>
+
+            <input type="radio" name="melhoria" id="input-lazer" value="lazer">
+            <label for="input-lazer">Lazer e Cultura</label><br>
+
+            <input type="radio" name="melhoria" id="input-limpeza" value="limpeza">
+            <label for="input-limpeza">Limpeza Urbana</label>
+        </fieldset>
+
+     
